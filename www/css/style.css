@@ -1,0 +1,70 @@
+body{
+	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+	font-size:100%;
+	background: #FFF url(../images/hounds_pattern.jpg) repeat ;
+	padding:0;
+	height:100%;
+	line-height:40px;
+}
+h1{
+    color:#4EA2CF;
+    font-size:340%;
+}
+h1,h2,h3{
+    margin:0;
+}
+h2{
+    color:#747474;
+}
+#content {
+    width:600px;
+    margin:20px auto;
+    background-color:white;
+    padding:20px;
+}
+
+#answer{
+    margin-top:20px;
+    margin-bottom:20px;
+    font-size:200%;
+    text-align:center;
+}
+#answer a{
+    padding:10px;
+
+    color:white;
+}
+a#no{
+    background-color:#2CAC39;
+    border-color:#2CAC39;
+}
+a#yes{
+    background-color:#E10A12;
+}
+#result{
+    line-height:20px;
+}
+.huge{
+    font-size:1000%;
+    line-height:1em;
+    padding-top:20px;
+    padding-bottom:40px;
+    text-align:center;
+}
+
+.social.content{margin-top:30px; line-height:20px;}
+.social p{margin:0;margin-bottom:10px;}
+
+a{color:#EB0E17; text-decoration: none;font-weight:bold}
+a:hover{text-decoration:underline;}
+
+#score{
+    color: #40A3D6
+}
+.inspiration{
+    color:#525252;
+}
+.promo{
+    padding-top:20px;
+    border-top:1px solid #CCC;
+}
