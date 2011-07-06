@@ -5,22 +5,7 @@ $(function(){
     $("#result").hide();
     
     var flashResult = function(){
-        var COLOURS = [
-        "#4F1B74",
-        "#8B0D53",
-        "#E40063",
-        "#C3328B",
-        "#31A635",
-        "#77B923",
-        "#D3D800",
-        "#EFF100",
-        "#E9001B",
-        "#F43F13",
-        "#F18000",
-        "#EEA229",
-        "#333"   ,
-        "#005DB5",
-        "#40A3D6"];
+        var COLOURS = ["#4F1B74","#8B0D53","#E40063","#C3328B","#31A635","#77B923","#D3D800","#EFF100","#E9001B","#F43F13","#F18000","#EEA229","#333"   ,"#005DB5","#40A3D6"];
         var colour_index = 0;
         setInterval(function(){
             colour_index ++;
