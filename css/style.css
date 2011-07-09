@@ -68,3 +68,9 @@ a:hover{text-decoration:underline;}
     padding-top:20px;
     border-top:1px solid #CCC;
 }
+#band{
+    position:absolute;
+    right:0;
+    bottom:0;
+    line-height:0;
+}
