@@ -1,3 +1,7 @@
+html{
+    margin:0;
+    padding:0;
+}
 body{
 	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
 	font-size:100%;
@@ -5,6 +9,7 @@ body{
 	padding:0;
 	height:100%;
 	line-height:40px;
+	margin:0;
 }
 h1{
     color:#4EA2CF;
@@ -73,4 +78,12 @@ a:hover{text-decoration:underline;}
     right:0;
     bottom:0;
     line-height:0;
+    margin:0;
+    padding:0;
+}
+#band a, #band a img{
+    line-height:0;
+    margin:0;
+    padding:0;
+    display:block;
 }
